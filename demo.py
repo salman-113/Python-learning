@@ -354,6 +354,69 @@
 #     a +=1
 
 
-for i in range(10):
-    pass
-    print(i)
+# for i in range(10):
+#     pass
+#     print(i)
+
+
+# fruits = ["apple", "banana", "cherry"]
+# for item in fruits:
+#     print(item)
+
+# for i in range(len(fruits)):
+#     print(i, fruits[i])
+
+# i = 0 
+# while i < len(fruits):
+#     print(fruits[i])
+#     i+=1
+
+
+
+
+# fruits = ["apple", "banana", "cherry"]
+# print(fruits[0])   # apple
+# print(fruits[-1])  # cherry (negative index → from end)
+# print(fruits[0:2])  # ['apple', 'banana']
+# print(fruits[:2])   # same as above
+# print(fruits[1:])   # ['banana', 'cherry']
+# print(fruits[:3])
+ 
+
+# numbers = [10, 20, 30]
+# # numbers[1] = 200
+# numbers[0:2] = [100, 200]
+# print(numbers)   # [10, 200, 30]
+
+
+# fruits = ["apple", "banana"]
+# fruits.append("cherry")
+# fruits.insert(0, "orange")
+# fruits.extend(numbers)
+# print(fruits)   # ['apple', 'banana', 'cherry']
+
+
+# num = [1, 2, 3, 4, 5]
+# sqare = []
+# for i in num:
+#     sqare.append(i ** 2)
+# print(sqare)
+
+
+# sqare = [x**2 for x in [1, 2, 3, 5]]
+# print(sqare)
+
+# even = [x for x in range(20) if x % 2 == 0]
+# print(even)
+
+# nums = [1, 2, 2, 3, 4, 5, 6, 90, 8, 9, 10]
+# nums.sort()
+# print(nums)
+
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruit:
+    print()
+new = [x.upper()for x in fruits ]
+print(new)
