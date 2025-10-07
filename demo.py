@@ -415,8 +415,262 @@
 
 
 
-fruits = ["apple", "banana", "cherry"]
-for x in fruit:
-    print()
-new = [x.upper()for x in fruits ]
-print(new)
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruit:
+#     print()
+# new = [x.upper()for x in fruits ]
+# print(new)
+
+
+
+# x = ("apple", "banana", "cherry")
+# y = list(x)
+# y[1]= "orange"
+# z = tuple(y)
+# print(z)
+
+# nested = (1, 2, (3, 4),(4,5))
+# print(nested[3][1]) 
+
+# fruits = {"apple", "banana", "cherry"}
+# for item in fruits:
+#     print(item)
+
+
+# if "apple" in fruits:
+#     print("Apple is present")
+
+
+
+# my_list = {2,2,3,3,4}
+# my_list.add(6)
+# print(my_list)
+
+
+# fruits = {"apple", "banana", "cherry"}
+# fruits.discard("mango")
+# print(fruits)
+
+
+# fruits = {"apple", "banana", "cherry"}
+# removed = fruits.pop()
+# print("Removed:", removed)
+
+
+
+
+# A = {1, 2, 3, 4}
+# B = {3, 4}
+# print(A.issuperset(B))
+
+
+
+# X = {10, 20}
+# # Y = {30, 40}
+# # print(X.union(Y)) 
+
+# d = X.copy()
+# print(d)
+
+
+
+# _Me = {
+#     "name": "Salman",
+#     "age": 21,
+#     "city": "Kozhikode"
+# }
+# print(_me["name"])
+# print(me.get("age"))
+
+
+
+# _Me = {
+#     "name": "Salman",
+#     "age": 21,
+#     "city": "Kozhikode"
+# }
+# # _Me["age"] = 45
+# # _Me.update({"age":56,"city":"malpppuram"})
+# # print(_Me)
+
+
+# _Me = {
+#     "name": "Salman",
+#     "age": 21,
+#     "city": "Kozhikode"
+# }
+
+# _Me["grade"]= "A"
+# _Me.update({"email":"salman@gmail.com"})
+# print(_Me)
+
+
+# _Me = {
+#     "name": "Salman",
+#     "age": 21,
+#     "city": "Kozhikode"
+# }
+# # _Me.pop("name")
+# _Me.popitem()
+# print(_Me)
+
+
+# _Me = {
+#     "name": "Salman",
+#     "age": 21,
+#     "city": "Kozhikode"
+# }
+
+# # for key in _Me:
+# #     print(key)
+# # for value in _Me.values():
+# #     print(value)
+
+# # for key, value in _Me.items():
+# #     print(key,":", value)
+
+
+
+# A = {}
+# for x in range(5):
+#     A[x] = x + 1
+# print(A) # it is a normal way 
+
+
+#using comprehension
+
+# A = {x: x*x for x in range(5)}
+# print(A)
+
+# A = {x: x*x for x in range(5) if x % 2 == 0}
+# print(A)
+
+
+
+# a = {"name": "salman"}
+# a.setdefault("age", 9)
+# print(a)
+
+# s = "PythonProgramming"
+# print(s[::2])
+
+
+# s = "Python"
+# s_new = "J" + s[1:]
+# print(s_new)     
+
+
+# first = "Hello"
+# second = "World"
+# result = first + " " + second
+# print(result)  # Hello World
+
+
+
+# name = "Salman"
+# greeting = f"Hello, {name}!"
+# print(greeting)
+
+
+# name = "salman"
+# age = 18
+# greeting = f"hello. {name} , {age}"
+# print(greeting)
+
+
+# my_str =  "Salman"
+# print(my_str[2:])
+
+
+# My_str = "salman"
+# new_str = "Muhammed" + " " + My_str + " " + "Faris"
+# print(new_str)
+
+# my_name = "sakman"
+# new_name = my_name.replace("k" ,"l")
+# print(new_name)
+
+
+
+# name = " hello salman "
+
+# print(name.upper())
+# print(name.lower())
+# print(name.capitalize())
+# print(name.title())
+# print(name.strip())
+# print(name.split())
+# print("-".join(name))
+# print(name.find("s"))
+# print(name.count("a"))
+# print(name.startswith(" "))
+# print("salman".isalpha())
+# print("123".isdigit())
+# print(" ".isspace())
+
+
+
+
+# def greet ():
+#     print("hellloooo")
+# greet()
+
+
+
+# def greet_user(name):
+#     print("Hello", name)
+
+# greet_user("salman")  
+
+# def add(a, b):
+#     print(a + b)
+
+# add(500,9000)
+
+
+# def show_names(*name):
+#     print("Names = ", name)
+
+# show_names("salman", "nafila", " asnif")  
+
+
+
+# def total_sum(*nums):
+#     print(sum(nums))
+
+# total_sum(10, 20, 50)
+# total_sum(10, 20, 50)
+
+
+
+
+
+
+
+
+
+# def info(name, age):
+#     print("Name:", name)
+#     print("Age:", age)
+
+# info(name="salman", age=20)
+
+
+
+# def stdnt_details(**info):
+#     print("Student info:", info)
+
+# stdnt_details(name="Salman", age=18, place= "Kozhikkode")
+
+
+# def demo(*arg, **kwargs):
+#     print("Positional args:", arg)
+#     print("Keyword args:", kwargs)
+
+# demo(1,2,3, name="salman", age=35)
+
+# def demo (**kwarg):
+#     for i, k in kwarg.items():
+#         print(f"{i}:{k}")
+
+# demo(salman="pizza", nafila="momos")
