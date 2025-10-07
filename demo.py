@@ -644,11 +644,6 @@
 
 
 
-
-
-
-
-
 # def info(name, age):
 #     print("Name:", name)
 #     print("Age:", age)
@@ -674,3 +669,88 @@
 #         print(f"{i}:{k}")
 
 # demo(salman="pizza", nafila="momos")
+
+
+
+# def factorial(n):
+#     if n == 0: # base case
+#         return 1
+#     else:
+#         return n * factorial(n-1) # recurcive call
+
+# print(factorial(5))
+
+
+
+# a = lambda a, b : a + b
+# print(a(6,5))
+
+# square = lambda x : x*x
+# print(square(2))
+
+
+
+# nums = [1, 2, 3, 4, 5]
+
+# square = list(map(lambda x : x*x, nums))
+# print(square)
+
+# even = list(filter(lambda x : x % 2 == 0, nums))
+# print(even)
+
+
+
+# import my_modules
+
+# my_modules.greet("salman")
+
+
+# import math
+
+# print(math.sqrt(16))
+
+
+
+# from math import sqrt, pi
+# print(sqrt(16))
+# print(pi)
+
+
+# import math as m
+# print(m.sqrt(12))
+
+
+# from random import randint, choice
+# print(randint(1, 108980))
+# print(choice([1,2,3,4,5]))
+
+# import datetime
+# now = datetime.datetime.now()
+# print(now)
+
+
+# import os
+# print("current", os.getcwd())
+
+
+# import sys
+# print("python version:", sys.api_version)
+
+
+
+# try:
+#     x = 10 / 0
+# except ZeroDivisionError:
+#     print("Cannot divided bt zero!")
+
+# try:
+#     num = int("abc")
+# except:
+#     print("sotmhtonog went wroneg")
+
+try:
+    num = int("abc")
+except ValueError:
+    print("Invalid imput")
+else:
+    print(num)
