@@ -748,9 +748,11 @@
 # except:
 #     print("sotmhtonog went wroneg")
 
-try:
-    num = int("abc")
-except ValueError:
-    print("Invalid imput")
-else:
-    print(num)
+# try:
+#     num = int("abc")
+# except ValueError:
+#     print("Invalid imput")
+# else:
+#     print(num)
+
+
