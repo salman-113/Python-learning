@@ -44,19 +44,34 @@
 
 
 
-class Student:
-    school = "ABC school"
+# class Student:
+#     school = "ABC school"
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def show(self):
-        grade = "A"
-        print(f"Name: {self.name}, Age: {self.age}, Grade: {grade}, School: {Student.school}")
+#     def show(self):
+#         grade = "A"
+#         print(f"Name: {self.name}, Age: {self.age}, Grade: {grade}, School: {Student.school}")
 
-s1 = Student("Salman", 18)
-s2 = Student("Nafila", 18)
-s1.show()
-s2.show()
+# s1 = Student("Salman", 18)
+# s2 = Student("Nafila", 18)
+# s1.show()
+# s2.show()
+# print(Student.school)
+# print()
+
+
+
+# class A:
+#     def __init__(self, v):
+#         self.v = v
+#     def f(self):
+#         v = 100
+#         print(self.v, v)
+
+# a = A(5)
+# a.f()
+
         
