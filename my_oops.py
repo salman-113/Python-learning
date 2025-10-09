@@ -31,13 +31,32 @@
 
 
 
-class Developer:
-    def __init__(self,name,stack):
+# class Developer:
+#     def __init__(self,name,stack):
+#         self.name = name
+#         self.stack = stack
+
+#     def Display(self):
+#         print(f"The {self.name} is a {self.stack} Developer")
+
+# dev = Developer("Salman", "Python Full-stack") 
+# dev.Display()       
+
+
+
+class Student:
+    school = "ABC school"
+
+    def __init__(self, name, age):
         self.name = name
-        self.stack = stack
+        self.age = age
 
-    def Display(self):
-        print(f"The {self.name} is a {self.stack} Developer")
+    def show(self):
+        grade = "A"
+        print(f"Name: {self.name}, Age: {self.age}, Grade: {grade}, School: {Student.school}")
 
-dev = Developer("Salman", "Python Full-stack") 
-dev.Display()       
+s1 = Student("Salman", 18)
+s2 = Student("Nafila", 18)
+s1.show()
+s2.show()
+        
