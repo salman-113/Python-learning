@@ -75,3 +75,41 @@
 # a.f()
 
         
+# class Car:
+#     car_name = "B M W"
+
+#     @classmethod
+#     def show_car(cls):
+#         print(f"The car is {cls.car_name}")
+     
+# Car.show_car()
+
+
+class Student:
+    school = "Nhss Nochad"
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print(f"Name: {self.name} School: {Student.school}")
+
+    @classmethod
+    def cahnge_school(cls, new_school):
+        cls.school = new_school
+
+    @staticmethod
+    def greet():
+        print("Hello Daa !")
+
+Student.greet()
+s1 = Student("Salman")
+s1.show()
+Student.cahnge_school("Mim Hss")
+s1.show()
+
+
+
+
+
+
