@@ -3,6 +3,7 @@
 # it = iter(numbers)
 
 # print(next(it))
+# print(next(it))
 
 
 # class MyNumbers:
@@ -21,7 +22,7 @@
 #         else:
 #             raise StopIteration  # no more items
         
-# numbers = MyNumbers(11)
+# numbers = MyNumbers(5)
 # for i in numbers:
 #     print(i)
 
