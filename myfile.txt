@@ -1,0 +1,3 @@
+Hello! This is my first file.
+I am learning file handling in Pyhton.
+This is now i added for append learnig
