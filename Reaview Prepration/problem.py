@@ -64,14 +64,41 @@
 # 7. Word Frequency
 # Problem: Count words in "this is is a test".
 
-text = "I am am Muhammed Salman Faris"
-words = text.split()
-freq = {}
-for w in words:
-    freq[w] = freq.get(w, 0) +1
-print(freq)
-print(words)
+# text = "I am am Muhammed Salman Faris"
+# words = text.split()
+# freq = {}
+# for w in words:
+#     freq[w] = freq.get(w, 0) +1
+# print(freq)
+# print(words)
 
 
+# Find Largest Number
+# Problem: Find largest in [3,6,2,8].
+
+# nums = [3, 5, 7, 89, 447, 462]
+# largest = nums[0]
+# for n in nums:
+#     if n > largest:
+#         largest = n
+# print("Largest:", largest)
 
 
+# 9. Palindrome Check
+# Problem: Check if "madam" is palindrome.
+
+# s = "MALAYALAM"
+# if s == s[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+    
+
+# 10. Factorial using Loop
+# Problem: Find factorial of 5
+
+# num = 5
+# fact = 1
+# for i in range(1, num + 1):
+#     fact *= i
+# print("Factorial:", fact)
