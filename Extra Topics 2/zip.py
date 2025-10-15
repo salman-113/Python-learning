@@ -12,8 +12,9 @@
 # print(result)
 
 
-products = ["Apple", "Banana", "Mango"]
-prices = [100, 60, 180]
+# products = ["Apple", "Banana", "Mango"]
+# prices = [100, 60, 180]
 
-discounted = {p: price * .9 for p, price in zip(products, prices)}
-print(discounted)
+# discounted = {p: price * .9 for p, price in zip(products, prices)}
+# print(discounted)
+
