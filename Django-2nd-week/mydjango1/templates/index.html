@@ -11,9 +11,17 @@
         <h2>Age is {{ age }}</h2>
         <h2>Place is {{ place }}</h2> {% endcomment %}
 
-        {% if num1 > 0 %}
+        {% comment %} {% if num1 > 0 %}
         <h2>Positive number</h2>
-        {% endif %}
+        {% elif num1 < 0 %}
+        <h2>Negative number</h2>
+        {% else %}
+        <h2>Nummber is Zero</h2>
+        {% endif %} {% endcomment %}
+
+        {% for n in num1 %}
+            <h2>{{n}}
+        {% endfor %}
 
 
 
