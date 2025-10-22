@@ -5,16 +5,7 @@ from django.http import HttpResponse
 
 def index(request):
 
-    # person = {
-    #     'name' : 'Salman',
-    #     'age' : 20,
-    #     'place' : 'Calicut'
-    # }
-
-    numbers = {
-        'num1' : [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    }
-    return render(request, 'index.html', numbers)
+    return render(request, 'index.html')
 
 def about(request):
     return render(request, 'about.html')
