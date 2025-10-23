@@ -1,6 +1,6 @@
 li:hover{
     background-color: green;
-    border-radius: 15px
-    
-
+    border-radius: 15px;
+    border: 1px solid yellow;
 }
+
